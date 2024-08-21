@@ -90,10 +90,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           I was promoted to Senior Consultant after 2 years of excellent performance at Servian. I was assigned a major GCP uplift program which has been my sole project since then.
       - layout: left
-        title: Cognizant Servian
-        link: https://www.cognizant.com/au/en/servian
+        title: Servian
+        link: https://www.servian.com
         sub_title: Consultant
-        caption: November 2021 - December 2021
+        caption: November 2019 - December 2021
         description: | # this will include new lines to allow paragraphs
           Started as a Consultant, my main focus was helping clients with their cloud transformation projects. I also collaborated with AWS Professional Services to provide consulting and upskiling for clients to accelerate their journey to AWS.
       - layout: left
