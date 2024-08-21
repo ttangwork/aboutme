@@ -12,7 +12,7 @@ email: tangtjg@outlook.com
 website: https://ttang.dev/aboutme
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -46,7 +46,7 @@ linkedin_username: tangtt
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/rocket.jpg
 about_content: | # this will include new lines to allow paragraphs
   Experienced DevOps engineer who has helped many organisations transform legacy platforms into cloud.
 
@@ -57,20 +57,44 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Senior Consultant
-        link: github.com/sproogen
+        title: An Australian financial institution
+        # link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Feb 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          CI/CD and platform engineering in GCP to deliver production ready platform for business critical systems. Tools in use: Terraform, Ansible, Packer, Codefresh, Github Enterprise, Artifactory, Bamboo, Bitbucket, Codefresh, New Relic, Splunk etc.
+      - layout: top-middle
+        title: An Australian FinTech company
+        quote: >
+          Apr - Jun 2020; Feb - May 2021; Jul 2021 - Jan 2022
+        description: | # this will include new lines to allow paragraphs
+          Migrating on-prem workloads into AWS using various tools: AWS Cloudformation, VPC, EC2, Lambda (Python), Hashicorp Packer, Ansible, Buildkite, Powershell
+      - layout: top-middle
+        title: An Australian financial institution
+        quote: >
+          Jun - Dec 2021
+        description: | # this will include new lines to allow paragraphs
+          Worked within Data division for a team of developers and data engineers focusing on an internal product which was a crucial component of company's data lake in AWS. Using Terraform, Packer, Ansible and Jenkins for infrastructure provision.
+      - layout: top-middle
+        title: A Victorian State Government entity
+        quote: >
+          Jun 2021
+        description: | # this will include new lines to allow paragraphs
+          Bootstrap of Azure accounts using Servian IPs (Terraform, Azure DevOps) to lay out the foundation for a data lake in Azure.
+      - layout: top-middle
+        title: An Australian FinTech company
+        quote: >
+          Feb - Apr 2020
+        description: | # this will include new lines to allow paragraphs
+          Infrastructure provision using AWS Cloudformation for the following resources: ELB, PrivateLinks, VPC endpoint services, API Gateway & Cognito.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
