@@ -101,7 +101,7 @@ content:
         sub_title: Consultant
         caption: November 2021 - December 2021
         description: | # this will include new lines to allow paragraphs
-          Started as a Consultant, my main focus was helping clients on their cloud transformation projects. I also collaborated with AWS professional services to provide consulting and upskiling for the clients in order to accelerate their journey to AWS.
+          Started as a Consultant, my main focus was helping clients with their cloud transformation projects. I also collaborated with AWS Professional Services to provide consulting and upskiling for clients to accelerate their journey to AWS.
       - layout: left
         title: Transurban
         link: https://www.transurban.com
