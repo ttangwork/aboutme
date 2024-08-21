@@ -53,31 +53,31 @@ content:
         quote: >
           Feburary 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and .NET tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including: <mark>Terraform</mark>, <mark>Ansible</mark>, <mark>Packer</mark>, Codefresh, Artifactory, Bamboo, New Relic, Splunk
+          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and <mark>.NET</mark> tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including: <mark>Terraform</mark>, <mark>Ansible</mark>, <mark>Packer</mark>, Codefresh, Artifactory, Bamboo, New Relic, Splunk
       - layout: top-middle
         title: An Australian FinTech company
         quote: >
           April - June 2020; Feb - May 2021; Jul 2021 - Jan 2022
         description: | # this will include new lines to allow paragraphs
-          Migrating on-premises workloads to AWS with moderate replatforming of legacy applications. One of the biggest challenges of this project was convincing stakeholders to shift their 'on-premises' mindset and embrace modern practices. We conducted regular workshops to upskill the team and worked closely with them throughout the migration. Ultimately, we raised the team's cloud skill level, enabling them to operate and maintain cloud workloads independently after the project was completed.
+          Migrating on-premises workloads to AWS with moderate replatforming of legacy applications that run on <mark>Apache Tomcat</mark> or <mark>IIS</mark>. One of the biggest challenges of this project was convincing stakeholders to shift their 'on-premises' mindset and embrace modern practices. We conducted regular workshops to upskill the team and worked closely with them throughout the migration. Ultimately, we raised the team's cloud skill level, enabling them to operate and maintain cloud workloads independently after the project was completed.
       - layout: top-middle
         title: An Australian Bank
         quote: >
           June - December 2021
         description: | # this will include new lines to allow paragraphs
-          Worked within a team of developers and data engineers focused on delivering an internal product, which was a crucial component of the company's data lake in AWS. My primary role was managing the infrastructure using Terraform, Packer, Ansible, and Jenkins.
+          Worked within a team of developers and data engineers focused on delivering an internal product, which was a crucial component of the company's data lake in AWS. My primary role was managing the infrastructure using <mark>Terraform</mark>, <mark>Packer</mark>, <mark>Ansible</mark>, and <mark>Jenkins</mark>.
       - layout: top-middle
         title: A Victorian State Government Agency
         quote: >
           June 2021
         description: | # this will include new lines to allow paragraphs
-          This was a short engagement that involved bootstrapping Azure accounts using Servian's custom solutions (Terraform & Azure DevOps) to lay the foundation for the client's data pipelines. The work primarily focused on two areas: setting up the environment and pipelines, and upskilling the client's engineers so they could maintain the solution independently.
+          This was a short engagement that involved bootstrapping Azure accounts using Servian's custom solutions (<mark>Terraform</mark> & <mark>Azure DevOps</mark>) to lay the foundation for the client's data pipelines. The work primarily focused on two areas: setting up the environment and pipelines, and upskilling the client's engineers so they could maintain the solution independently.
       - layout: top-middle
         title: An Australian Retailer
         quote: >
           Feburary - April 2020
         description: | # this will include new lines to allow paragraphs
-          Designed and implemented a custom solution using AWS networks and services to connect on-premises IBM AIX systems to third-party systems. The solution, built with ELB, Cognito, and AWS PrivateLink, was a secure proxy running in AWS that handled connection requests between on-premises and third-party systems. The chosen Infrastructure as Code (IaC) tool was AWS CloudFormation, which was the standard in the client's organization. The custom solution also included integration with the client's Azure Active Directory for user authentication via AWS Cognito.
+          Designed and implemented a custom solution using AWS networks and services to connect on-premises IBM AIX systems to third-party systems. The solution, built with <mark>ELB</mark>, <mark>Cognito</mark>, and <mark>AWS PrivateLink</mark>, was a secure proxy running in AWS that handled connection requests between on-premises and third-party systems. The chosen Infrastructure as Code (IaC) tool was AWS <mark>CloudFormation</mark>, which was the standard in the client's organization. The custom solution also included integration with the client's Azure Active Directory for user authentication via AWS Cognito.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
