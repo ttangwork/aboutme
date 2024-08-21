@@ -9,7 +9,7 @@ version: 2
 name: Tommy Tang
 title: DevOps Engineer
 email: tangtjg@outlook.com
-website: ttang.dev
+website: https://ttang.dev/aboutme
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -79,12 +79,62 @@ content:
         title: Cognizant Servian
         link: https://www.cognizant.com/au/en/servian
         # link_text: boringcompany.com
-        sub_title: Consultant - Senior Consultant
-        caption: November 2019 - Present
-        quote: >
-          DevOps consultant who helps clients uplifting legacy systems to public cloud
+        sub_title: Senior Consultant
+        caption: December 2021 - Present
+        # quote: >
+        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
         description: | # this will include new lines to allow paragraphs
-            
+          Senior Consultant  
+      - layout: left
+        title: Cognizant Servian
+        link: https://www.cognizant.com/au/en/servian
+        # link_text: boringcompany.com
+        sub_title: Consultant
+        caption: November 2021 - December 2021
+        # quote: >
+        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
+        description: | # this will include new lines to allow paragraphs
+          Consultant 
+      - layout: left
+        title: Transurban
+        link: https://www.transurban.com
+        # link_text: boringcompany.com
+        sub_title: Application Performance and Monitoring Specialist
+        caption: July 2018 - November 2019
+        # quote: >
+        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
+        description: | # this will include new lines to allow paragraphs
+          Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools: Shell scripting (Bash, Perl and Python), PL/SQL, Site24x7, Dynatrace, Oracle Enterprise Manager.
+      - layout: left
+        title: Telstra Health
+        link: https://www.telstrahealth.com/
+        # link_text: boringcompany.com
+        sub_title: Technical Consultant
+        caption: January 2017 - July 2018
+        # quote: >
+        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
+        description: | # this will include new lines to allow paragraphs
+          Technical Consultant of The Care Manager (TCM), a solution for Community Care and Aged Care service providers. Developing and supporting customised modules/SQL scripts based on client requirement. Mainly using SQL on MS-SQL Server to create functions/stored procedures, SSIS or SSRS.
+      - layout: left
+        title: Cenitex
+        link: https://www.cenitex.vic.gov.au/
+        # link_text: boringcompany.com
+        sub_title: Application Support
+        caption: July 2009 - December 2016
+        # quote: >
+        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
+        description: | # this will include new lines to allow paragraphs
+          Second level support of business critical applications using following technologies: Websphere 6, IIS, SQL Server 2000 - 2014, SSRS, SSIS, SAP BO. Responsible for creating and maintaining reports (Crystal Reports; Business Objects Web Intelligence; SSRS). Work in BAU (Incident/Change/Problem Management) and project mixed environment.
+      - layout: left
+        title: RMIT University
+        link: https://www.rmit.edu.au
+        # link_text: boringcompany.com
+        sub_title: Sessional Tutor
+        caption: July 2008 - October 2008
+        # quote: >
+        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
+        description: | # this will include new lines to allow paragraphs
+          Running labs and tutorials for Java Application Development
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -92,25 +142,37 @@ content:
       - layout: left
         title: RMIT University
         caption: 2005 - 2008
-        sub_title: BSc BIS
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        sub_title: Bachelor of Business with Honours, Business Information Systems
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Grade: First Class Honour
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Certifications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hashicorp Certified - Terraform Associate (003)
+        caption: expires Jan 2026
+      - layout: left
+        title: Azure Fundamentals
+        caption: issued May 2021
+      - layout: left
+        title: AWS Architect Associate
+        caption: expired March 2023
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
