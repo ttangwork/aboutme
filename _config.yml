@@ -12,7 +12,7 @@ email: tangtjg@outlook.com
 website: https://ttang.dev/aboutme
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 github_username: ttangwork
