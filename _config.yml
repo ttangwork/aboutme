@@ -40,7 +40,7 @@ about_content: | # this will include new lines to allow paragraphs
   Experienced DevOps engineer helping organisations transform legacy system into cloud.
 
   I have expertise in:
-  - AWS, GCP and Azure
+  - <mark>AWS</mark>, <mark>GCP</mark> and <mark>Azure</mark>
   - Infrastructure As Code
   - CI/CD
 
@@ -53,15 +53,7 @@ content:
         quote: >
           Feburary 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and .NET tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including:
-          - Terraform
-          - Ansible
-          - Packer
-          - Codefresh
-          - Artifactory
-          - Bamboo
-          - New Relic
-          - Splunk
+          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and .NET tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including: <mark>Terraform</mark>, <mark>Ansible</mark>, <mark>Packer</mark>, Codefresh, Artifactory, Bamboo, New Relic, Splunk
       - layout: top-middle
         title: An Australian FinTech company
         quote: >
@@ -110,12 +102,7 @@ content:
         sub_title: Application Performance and Monitoring Specialist
         caption: July 2018 - November 2019
         description: | # this will include new lines to allow paragraphs
-          Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools:
-          - Shell scripting (Bash, Perl and Python)
-          - PL/SQL
-          - Site24x7
-          - Dynatrace
-          - Oracle Enterprise Manager
+          Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools: Shell scripting (Bash, Perl and Python), PL/SQL, Site24x7, Dynatrace and Oracle Enterprise Manager.
       - layout: left
         title: Telstra Health
         link: https://www.telstrahealth.com/
