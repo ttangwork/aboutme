@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: ttangwork/aboutme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,25 +9,14 @@ version: 2
 name: Tommy Tang
 title: DevOps Engineer
 email: tangtjg@outlook.com
-website: ttang.dev
+website: https://ttang.dev/aboutme
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  ttangwork
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
+github_username: ttangwork
 linkedin_username: tangtt
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 # additional_links:
@@ -45,32 +34,56 @@ linkedin_username: tangtt
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
+about_title: About Me
+about_profile_image: images/rocket.png
 about_content: | # this will include new lines to allow paragraphs
-  Experienced DevOps engineer who has helped many organisations transform legacy platforms into cloud.
+  Experienced DevOps engineer helping organisations transform legacy system into cloud.
 
-  I have expertise in: AWS, GCP and Azure; IaC; CI/CD.
+  I have expertise in: AWS, GCP and Azure; Infrastructure As Code; Configuration Management; CI/CD.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Senior Consultant
-        link: github.com/sproogen
+        title: An Australian Bank
+        # link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Feburary 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and .NET tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including Terraform, Ansible, Packer, Codefresh, Artifactory, Bamboo, New Relic, and Splunk.
+      - layout: top-middle
+        title: An Australian FinTech company
+        quote: >
+          April - June 2020; Feb - May 2021; Jul 2021 - Jan 2022
+        description: | # this will include new lines to allow paragraphs
+          Migrating on-premises workloads to AWS with moderate replatforming of legacy applications. One of the biggest challenges of this project was convincing stakeholders to shift their 'on-premises' mindset and embrace modern practices. We conducted regular workshops to upskill the team and worked closely with them throughout the migration. Ultimately, we raised the team's cloud skill level, enabling them to operate and maintain cloud workloads independently after the project was completed.
+      - layout: top-middle
+        title: An Australian Bank
+        quote: >
+          June - December 2021
+        description: | # this will include new lines to allow paragraphs
+          Worked within a team of developers and data engineers focused on delivering an internal product, which was a crucial component of the company's data lake in AWS. My primary role was managing the infrastructure using Terraform, Packer, Ansible, and Jenkins.
+      - layout: top-middle
+        title: A Victorian State Government Agency
+        quote: >
+          June 2021
+        description: | # this will include new lines to allow paragraphs
+          This was a short engagement that involved bootstrapping Azure accounts using Servian's custom solutions (Terraform & Azure DevOps) to lay the foundation for the client's data pipelines. The work primarily focused on two areas: setting up the environment and pipelines, and upskilling the client's engineers so they could maintain the solution independently.
+      - layout: top-middle
+        title: An Australian Retailer
+        quote: >
+          Feburary - April 2020
+        description: | # this will include new lines to allow paragraphs
+          Designed and implemented a custom solution using AWS networks and services to connect on-premises IBM AIX systems to third-party systems. The solution, built with ELB, Cognito, and AWS PrivateLink, was a secure proxy running in AWS that handled connection requests between on-premises and third-party systems. The chosen Infrastructure as Code (IaC) tool was AWS CloudFormation, which was the standard in the client's organization. The custom solution also included integration with the client's Azure Active Directory for user authentication via AWS Cognito.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -78,13 +91,44 @@ content:
       - layout: left
         title: Cognizant Servian
         link: https://www.cognizant.com/au/en/servian
-        # link_text: boringcompany.com
-        sub_title: Consultant - Senior Consultant
-        caption: November 2019 - Present
-        quote: >
-          DevOps consultant who helps clients uplifting legacy systems to public cloud
+        sub_title: Senior Consultant
+        caption: December 2021 - Present
         description: | # this will include new lines to allow paragraphs
-            
+          I was promoted to Senior Consultant after 2 years of excellent performance at Servian. I was assigned a major GCP uplift program which has been my sole project since then.
+      - layout: left
+        title: Cognizant Servian
+        link: https://www.cognizant.com/au/en/servian
+        sub_title: Consultant
+        caption: November 2021 - December 2021
+        description: | # this will include new lines to allow paragraphs
+          Started as a Consultant, my main focus was helping clients with their cloud transformation projects. I also collaborated with AWS Professional Services to provide consulting and upskiling for clients to accelerate their journey to AWS.
+      - layout: left
+        title: Transurban
+        link: https://www.transurban.com
+        sub_title: Application Performance and Monitoring Specialist
+        caption: July 2018 - November 2019
+        description: | # this will include new lines to allow paragraphs
+          Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools: Shell scripting (Bash, Perl and Python), PL/SQL, Site24x7, Dynatrace, Oracle Enterprise Manager.
+      - layout: left
+        title: Telstra Health
+        link: https://www.telstrahealth.com/
+        sub_title: Technical Consultant
+        caption: January 2017 - July 2018
+          Technical Consultant of The Care Manager (TCM), a solution for Community Care and Aged Care service providers. Developing and supporting custom modules & SQL scripts based on client requirement. Primarily using T-SQL to create functions/stored procedures, SSIS or SSRS.
+      - layout: left
+        title: Cenitex
+        link: https://www.cenitex.vic.gov.au/
+        sub_title: Application Support
+        caption: July 2009 - December 2016
+        description: | # this will include new lines to allow paragraphs
+          Second level support of business critical applications using following technologies: Websphere 6, IIS, SQL Server, SSRS, SSIS, SAP BO. Responsible for creating and maintaining reports (Crystal Reports; Business Objects Web Intelligence; SSRS). Work in BAU (Incident/Change/Problem Management) and project mixed environment.
+      - layout: left
+        title: RMIT University
+        link: https://www.rmit.edu.au
+        sub_title: Sessional Tutor
+        caption: July 2008 - October 2008
+        description: | # this will include new lines to allow paragraphs
+          Running labs and tutorials for Java Application Development
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -92,25 +136,22 @@ content:
       - layout: left
         title: RMIT University
         caption: 2005 - 2008
-        sub_title: BSc BIS
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        sub_title: Bachelor of Business with Honours, Business Information Systems
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Grade: First Class Honour
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  - title: Certifications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hashicorp Certified - Terraform Associate (003)
+        caption: expires January 2026
+      - layout: left
+        title: Azure Fundamentals
+        caption: issued May 2021
+      - layout: left
+        title: AWS Architect Associate
+        caption: expired March 2023
 
 # Footer
 footer_show_references: true
@@ -124,4 +165,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
