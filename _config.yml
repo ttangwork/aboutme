@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: ttangwork/aboutme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -15,19 +15,8 @@ website: https://ttang.dev/aboutme
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  ttangwork
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
+github_username: ttangwork
 linkedin_username: tangtt
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 # additional_links:
@@ -46,7 +35,7 @@ linkedin_username: tangtt
 
 # About Section
 # about_title: About Me
-about_profile_image: images/rocket.jpg
+about_profile_image: images/rocket.png
 about_content: | # this will include new lines to allow paragraphs
   Experienced DevOps engineer who has helped many organisations transform legacy platforms into cloud.
 
@@ -57,44 +46,44 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: An Australian financial institution
+        title: An Australian Bank
         # link: github.com/sproogen
         # link_text: Project Website
         # additional_links:
         #   - title:  sproogen/modern-resume-theme
         #     icon: fab fa-github
         #     url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Feb 2022 - Present
+          Feburary 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          CI/CD and platform engineering in GCP to deliver production ready platform for business critical systems. Tools in use: Terraform, Ansible, Packer, Codefresh, Github Enterprise, Artifactory, Bamboo, Bitbucket, Codefresh, New Relic, Splunk etc.
+          Cloud migration project to help client vacate their data centre by 2027. The systems hosted on-premises are mainly based on Windows and .NET tech stacks. It's my job to leverage existing enterprise platform and tools to migrate client's workloads into cloud. Given the complexity involved, the project was constructed in different phases to move workloads into cloud gradually. During this project, a lot of tools were used: Terraform, Ansible, Packer, Codefresh, Artifactory, Bamboo, New Relic & Splunk.
       - layout: top-middle
         title: An Australian FinTech company
         quote: >
-          Apr - Jun 2020; Feb - May 2021; Jul 2021 - Jan 2022
+          April - June 2020; Feb - May 2021; Jul 2021 - Jan 2022
         description: | # this will include new lines to allow paragraphs
-          Migrating on-prem workloads into AWS using various tools: AWS Cloudformation, VPC, EC2, Lambda (Python), Hashicorp Packer, Ansible, Buildkite, Powershell
+          Migrating on-prem workloads into AWS with moderate replatform of legacy applications. One of the biggest challenges of this project was to convince stakeholders to shift their "on-premises" mindset and embrace modern practice. We run regular workshops to upskill the team as well as working with them closely during the migration. We ended up raising the cloud skill level for the team which was able to operate and maintain cloud workloads independently after we wrapped up the project.
       - layout: top-middle
-        title: An Australian financial institution
+        title: An Australian Bank
         quote: >
-          Jun - Dec 2021
+          June - December 2021
         description: | # this will include new lines to allow paragraphs
-          Worked within Data division for a team of developers and data engineers focusing on an internal product which was a crucial component of company's data lake in AWS. Using Terraform, Packer, Ansible and Jenkins for infrastructure provision.
+          Worked within a team of developers and data engineers focusing on the delivery of an internal product. This product was a crucial component of company's data lake in AWS. My main role was managing infrastructure using Terraform, Packer, Ansible and Jenkins.
       - layout: top-middle
-        title: A Victorian State Government entity
+        title: A Victorian State Government Agency
         quote: >
-          Jun 2021
+          June 2021
         description: | # this will include new lines to allow paragraphs
-          Bootstrap of Azure accounts using Servian IPs (Terraform, Azure DevOps) to lay out the foundation for a data lake in Azure.
+          This was a short engagement which involves bootstraping of Azure accounts using Servian custom solutions (Terraform & Azure DevOps) to lay the foundation for client's data pipelines. The work was mainly on two parts: setting up the environment and pipelines; and upskilling client's engineers so they can maintain the solution independently.
       - layout: top-middle
-        title: An Australian FinTech company
+        title: An Australian Retailer
         quote: >
-          Feb - Apr 2020
+          Feburary - April 2020
         description: | # this will include new lines to allow paragraphs
-          Infrastructure provision using AWS Cloudformation for the following resources: ELB, PrivateLinks, VPC endpoint services, API Gateway & Cognito.
+          Designed and implemented a custom solution using AWS network and services to connect on-premises IBM AIX systems to third-party systems. The solution, built by ELB, Cognito and AWS Private Link, was a secured proxy running in AWS that handled connection requests between on-premises and the third-party systems. Choice of IaC was AWS CloudFormation which was the standard IaC tool in client's organisation. The custom solution also involves integration with client's Azure Active Directory for user authentication via AWS Cognito.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,61 +91,42 @@ content:
       - layout: left
         title: Cognizant Servian
         link: https://www.cognizant.com/au/en/servian
-        # link_text: boringcompany.com
         sub_title: Senior Consultant
         caption: December 2021 - Present
-        # quote: >
-        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
         description: | # this will include new lines to allow paragraphs
-          Senior Consultant  
+          I was promoted to Senior Consultant after 2 years of excellent performance at Servian. I was assigned a major GCP uplift program which has been my sole project since then.
       - layout: left
         title: Cognizant Servian
         link: https://www.cognizant.com/au/en/servian
-        # link_text: boringcompany.com
         sub_title: Consultant
         caption: November 2021 - December 2021
-        # quote: >
-        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
         description: | # this will include new lines to allow paragraphs
-          Consultant 
+          Started as a Consultant, my main focus was helping my clients on their Cloud transformation projects. I also collaborated with AWS professional services to provide consulting for the clients in order to accelerate their journey to AWS.
       - layout: left
         title: Transurban
         link: https://www.transurban.com
-        # link_text: boringcompany.com
         sub_title: Application Performance and Monitoring Specialist
         caption: July 2018 - November 2019
-        # quote: >
-        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
         description: | # this will include new lines to allow paragraphs
           Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools: Shell scripting (Bash, Perl and Python), PL/SQL, Site24x7, Dynatrace, Oracle Enterprise Manager.
       - layout: left
         title: Telstra Health
         link: https://www.telstrahealth.com/
-        # link_text: boringcompany.com
         sub_title: Technical Consultant
         caption: January 2017 - July 2018
-        # quote: >
-        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
-        description: | # this will include new lines to allow paragraphs
           Technical Consultant of The Care Manager (TCM), a solution for Community Care and Aged Care service providers. Developing and supporting customised modules/SQL scripts based on client requirement. Mainly using SQL on MS-SQL Server to create functions/stored procedures, SSIS or SSRS.
       - layout: left
         title: Cenitex
         link: https://www.cenitex.vic.gov.au/
-        # link_text: boringcompany.com
         sub_title: Application Support
         caption: July 2009 - December 2016
-        # quote: >
-        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
         description: | # this will include new lines to allow paragraphs
           Second level support of business critical applications using following technologies: Websphere 6, IIS, SQL Server 2000 - 2014, SSRS, SSIS, SAP BO. Responsible for creating and maintaining reports (Crystal Reports; Business Objects Web Intelligence; SSRS). Work in BAU (Incident/Change/Problem Management) and project mixed environment.
       - layout: left
         title: RMIT University
         link: https://www.rmit.edu.au
-        # link_text: boringcompany.com
         sub_title: Sessional Tutor
         caption: July 2008 - October 2008
-        # quote: >
-        #   DevOps consultant who helps clients uplifting legacy systems to public cloud
         description: | # this will include new lines to allow paragraphs
           Running labs and tutorials for Java Application Development
 
@@ -167,8 +137,6 @@ content:
         title: RMIT University
         caption: 2005 - 2008
         sub_title: Bachelor of Business with Honours, Business Information Systems
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           Grade: First Class Honour
 
@@ -177,14 +145,13 @@ content:
     content:
       - layout: left
         title: Hashicorp Certified - Terraform Associate (003)
-        caption: expires Jan 2026
+        caption: expires January 2026
       - layout: left
         title: Azure Fundamentals
         caption: issued May 2021
       - layout: left
         title: AWS Architect Associate
         caption: expired March 2023
-
 
   # - title: A Little More About Me
   #   layout: text
@@ -195,7 +162,7 @@ content:
   #     - Knitting
   #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-  #     Look at this cool image  
+  #     Look at this cool image
   #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
@@ -210,4 +177,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
