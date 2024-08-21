@@ -39,7 +39,10 @@ about_profile_image: images/rocket.png
 about_content: | # this will include new lines to allow paragraphs
   Experienced DevOps engineer helping organisations transform legacy system into cloud.
 
-  I have expertise in: AWS, GCP and Azure; Infrastructure As Code; Configuration Management; CI/CD.
+  I have expertise in:
+  - AWS, GCP and Azure
+  - Infrastructure As Code
+  - CI/CD
 
 content:
   - title: Projects # Title for the section
@@ -47,19 +50,18 @@ content:
     content:
       - layout: top-middle
         title: An Australian Bank
-        # link: github.com/sproogen
-        # link_text: Project Website
-        # additional_links:
-        #   - title:  sproogen/modern-resume-theme
-        #     icon: fab fa-github
-        #     url: github.com/sproogen/modern-resume-theme
-        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #   icon: fab fa-github
-        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           Feburary 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and .NET tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including Terraform, Ansible, Packer, Codefresh, Artifactory, Bamboo, New Relic, and Splunk.
+          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and .NET tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including:
+          - Terraform
+          - Ansible
+          - Packer
+          - Codefresh
+          - Artifactory
+          - Bamboo
+          - New Relic
+          - Splunk
       - layout: top-middle
         title: An Australian FinTech company
         quote: >
@@ -108,7 +110,12 @@ content:
         sub_title: Application Performance and Monitoring Specialist
         caption: July 2018 - November 2019
         description: | # this will include new lines to allow paragraphs
-          Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools: Shell scripting (Bash, Perl and Python), PL/SQL, Site24x7, Dynatrace, Oracle Enterprise Manager.
+          Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools:
+          - Shell scripting (Bash, Perl and Python)
+          - PL/SQL
+          - Site24x7
+          - Dynatrace
+          - Oracle Enterprise Manager
       - layout: left
         title: Telstra Health
         link: https://www.telstrahealth.com/
@@ -145,20 +152,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Hashicorp Certified - Terraform Associate (003)
+        title: Hashicorp Certified
         caption: expires January 2026
-        description:
-          https://www.credly.com/badges/6a36ad47-2270-4495-b33e-ea9b5ce0f408/
+        description: |
+          [Terraform Associate (003)](https://www.credly.com/badges/6a36ad47-2270-4495-b33e-ea9b5ce0f408/)
       - layout: left
-        title: Azure Fundamentals
+        title: Microsoft Certified
         caption: issued May 2021
-        description:
-          https://www.credly.com/badges/c3e5cfc5-8ab7-4617-82a4-8fef3dcd2b1b/
+        description: |
+          [Azure Fundamentals](https://www.credly.com/badges/c3e5cfc5-8ab7-4617-82a4-8fef3dcd2b1b/)
       - layout: left
-        title: AWS Architect Associate
+        title: Amazon Web Service
         caption: expired March 2023
-        description:
-          https://cp.certmetrics.com/amazon/en/public/verify/credential/DXEGQ23CMMQQ1N35
+        description: |
+          [AWS Architect Associate](https://cp.certmetrics.com/amazon/en/public/verify/credential/DXEGQ23CMMQQ1N35)
 
 # Footer
 footer_show_references: true
