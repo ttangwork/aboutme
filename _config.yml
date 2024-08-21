@@ -34,12 +34,12 @@ linkedin_username: tangtt
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/rocket.png
 about_content: | # this will include new lines to allow paragraphs
-  Experienced DevOps engineer who has helped many organisations transform legacy platforms into cloud.
+  Experienced DevOps engineer helping organisations transform legacy system into cloud.
 
-  I have expertise in: AWS, GCP and Azure; IaC; CI/CD.
+  I have expertise in: AWS, GCP and Azure; Infrastructure As Code; Configuration Management; CI/CD.
 
 content:
   - title: Projects # Title for the section
@@ -59,31 +59,31 @@ content:
         quote: >
           Feburary 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          Cloud migration project to help client vacate their data centre by 2027. The systems hosted on-premises are mainly based on Windows and .NET tech stacks. It's my job to leverage existing enterprise platform and tools to migrate client's workloads into cloud. Given the complexity involved, the project was constructed in different phases to move workloads into cloud gradually. During this project, a lot of tools were used: Terraform, Ansible, Packer, Codefresh, Artifactory, Bamboo, New Relic & Splunk.
+          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and .NET tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including Terraform, Ansible, Packer, Codefresh, Artifactory, Bamboo, New Relic, and Splunk.
       - layout: top-middle
         title: An Australian FinTech company
         quote: >
           April - June 2020; Feb - May 2021; Jul 2021 - Jan 2022
         description: | # this will include new lines to allow paragraphs
-          Migrating on-prem workloads into AWS with moderate replatform of legacy applications. One of the biggest challenges of this project was to convince stakeholders to shift their "on-premises" mindset and embrace modern practice. We run regular workshops to upskill the team as well as working with them closely during the migration. We ended up raising the cloud skill level for the team which was able to operate and maintain cloud workloads independently after we wrapped up the project.
+          Migrating on-premises workloads to AWS with moderate replatforming of legacy applications. One of the biggest challenges of this project was convincing stakeholders to shift their 'on-premises' mindset and embrace modern practices. We conducted regular workshops to upskill the team and worked closely with them throughout the migration. Ultimately, we raised the team's cloud skill level, enabling them to operate and maintain cloud workloads independently after the project was completed.
       - layout: top-middle
         title: An Australian Bank
         quote: >
           June - December 2021
         description: | # this will include new lines to allow paragraphs
-          Worked within a team of developers and data engineers focusing on the delivery of an internal product. This product was a crucial component of company's data lake in AWS. My main role was managing infrastructure using Terraform, Packer, Ansible and Jenkins.
+          Worked within a team of developers and data engineers focused on delivering an internal product, which was a crucial component of the company's data lake in AWS. My primary role was managing the infrastructure using Terraform, Packer, Ansible, and Jenkins.
       - layout: top-middle
         title: A Victorian State Government Agency
         quote: >
           June 2021
         description: | # this will include new lines to allow paragraphs
-          This was a short engagement which involves bootstraping of Azure accounts using Servian custom solutions (Terraform & Azure DevOps) to lay the foundation for client's data pipelines. The work was mainly on two parts: setting up the environment and pipelines; and upskilling client's engineers so they can maintain the solution independently.
+          This was a short engagement that involved bootstrapping Azure accounts using Servian's custom solutions (Terraform & Azure DevOps) to lay the foundation for the client's data pipelines. The work primarily focused on two areas: setting up the environment and pipelines, and upskilling the client's engineers so they could maintain the solution independently.
       - layout: top-middle
         title: An Australian Retailer
         quote: >
           Feburary - April 2020
         description: | # this will include new lines to allow paragraphs
-          Designed and implemented a custom solution using AWS network and services to connect on-premises IBM AIX systems to third-party systems. The solution, built by ELB, Cognito and AWS Private Link, was a secured proxy running in AWS that handled connection requests between on-premises and the third-party systems. Choice of IaC was AWS CloudFormation which was the standard IaC tool in client's organisation. The custom solution also involves integration with client's Azure Active Directory for user authentication via AWS Cognito.
+          Designed and implemented a custom solution using AWS networks and services to connect on-premises IBM AIX systems to third-party systems. The solution, built with ELB, Cognito, and AWS PrivateLink, was a secure proxy running in AWS that handled connection requests between on-premises and third-party systems. The chosen Infrastructure as Code (IaC) tool was AWS CloudFormation, which was the standard in the client's organization. The custom solution also included integration with the client's Azure Active Directory for user authentication via AWS Cognito.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -101,7 +101,7 @@ content:
         sub_title: Consultant
         caption: November 2021 - December 2021
         description: | # this will include new lines to allow paragraphs
-          Started as a Consultant, my main focus was helping my clients on their Cloud transformation projects. I also collaborated with AWS professional services to provide consulting for the clients in order to accelerate their journey to AWS.
+          Started as a Consultant, my main focus was helping clients on their cloud transformation projects. I also collaborated with AWS professional services to provide consulting and upskiling for the clients in order to accelerate their journey to AWS.
       - layout: left
         title: Transurban
         link: https://www.transurban.com
@@ -114,14 +114,14 @@ content:
         link: https://www.telstrahealth.com/
         sub_title: Technical Consultant
         caption: January 2017 - July 2018
-          Technical Consultant of The Care Manager (TCM), a solution for Community Care and Aged Care service providers. Developing and supporting customised modules/SQL scripts based on client requirement. Mainly using SQL on MS-SQL Server to create functions/stored procedures, SSIS or SSRS.
+          Technical Consultant of The Care Manager (TCM), a solution for Community Care and Aged Care service providers. Developing and supporting custom modules & SQL scripts based on client requirement. Primarily using T-SQL to create functions/stored procedures, SSIS or SSRS.
       - layout: left
         title: Cenitex
         link: https://www.cenitex.vic.gov.au/
         sub_title: Application Support
         caption: July 2009 - December 2016
         description: | # this will include new lines to allow paragraphs
-          Second level support of business critical applications using following technologies: Websphere 6, IIS, SQL Server 2000 - 2014, SSRS, SSIS, SAP BO. Responsible for creating and maintaining reports (Crystal Reports; Business Objects Web Intelligence; SSRS). Work in BAU (Incident/Change/Problem Management) and project mixed environment.
+          Second level support of business critical applications using following technologies: Websphere 6, IIS, SQL Server, SSRS, SSIS, SAP BO. Responsible for creating and maintaining reports (Crystal Reports; Business Objects Web Intelligence; SSRS). Work in BAU (Incident/Change/Problem Management) and project mixed environment.
       - layout: left
         title: RMIT University
         link: https://www.rmit.edu.au
@@ -152,18 +152,6 @@ content:
       - layout: left
         title: AWS Architect Associate
         caption: expired March 2023
-
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-  #     Look at this cool image
-  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
