@@ -37,7 +37,7 @@ linkedin_username: tangtt
 about_title: About Me
 about_profile_image: images/rocket.png
 about_content: | # this will include new lines to allow paragraphs
-  Experienced DevOps engineer helping organisations transform legacy system into cloud.
+  Experienced DevOps engineer helping organisations transform legacy systems into cloud.
 
   I have expertise in:
   - <mark>AWS</mark>, <mark>GCP</mark> and <mark>Azure</mark>
