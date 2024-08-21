@@ -45,7 +45,7 @@ about_content: | # this will include new lines to allow paragraphs
   - CI/CD
 
 content:
-  - title: Projects # Title for the section
+  - title: Client Engagements # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -105,14 +105,14 @@ content:
           Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools: Shell scripting (Bash, Perl and Python), PL/SQL, Site24x7, Dynatrace and Oracle Enterprise Manager.
       - layout: left
         title: Telstra Health
-        link: https://www.telstrahealth.com/
+        link: https://www.telstrahealth.com
         sub_title: Technical Consultant
         caption: January 2017 - July 2018
         description: | # this will include new lines to allow paragraphs
           Technical Consultant of The Care Manager (TCM), a solution for Community Care and Aged Care service providers. Developing and supporting custom modules & SQL scripts based on client requirement. Primarily using T-SQL to create functions/stored procedures, SSIS or SSRS.
       - layout: left
         title: Cenitex
-        link: https://www.cenitex.vic.gov.au/
+        link: https://www.cenitex.vic.gov.au
         sub_title: Application Support
         caption: July 2009 - December 2016
         description: | # this will include new lines to allow paragraphs
