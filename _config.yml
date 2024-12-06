@@ -139,6 +139,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Google Certified
+        caption: expires November 2027
+        description: |
+          [Google Cloud Associate Cloud Engineer](https://www.credly.com/badges/df407d0c-dd8f-4a5d-8500-53c48971ef1f)
+      - layout: left
         title: Hashicorp Certified
         caption: expires January 2026
         description: |
