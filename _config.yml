@@ -12,7 +12,7 @@ email: tangtjg@outlook.com
 website: https://ttang.dev/aboutme
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
 github_username: ttangwork
@@ -157,7 +157,7 @@ content:
         title: Amazon Web Service
         caption: expired March 2023
         description: |
-          [AWS Architect Associate](https://cp.certmetrics.com/amazon/en/public/verify/credential/DXEGQ23CMMQQ1N35)
+          [AWS Solutions Architect Associate](https://cp.certmetrics.com/amazon/en/public/verify/credential/DXEGQ23CMMQQ1N35)
 
 # Footer
 footer_show_references: true
