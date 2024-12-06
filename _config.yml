@@ -12,7 +12,7 @@ email: tangtjg@outlook.com
 website: https://ttang.dev/aboutme
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username: ttangwork
@@ -88,7 +88,7 @@ content:
         sub_title: Senior Consultant
         caption: December 2021 - Present
         description: | # this will include new lines to allow paragraphs
-          I was promoted to Senior Consultant after 2 years of excellent performance at Servian. I was assigned a major GCP uplift program which has been my sole project since then.
+          Promoted to Senior Consultant. Joined a GCP migration project in 2022 to help client exit their data centre by 2026.
       - layout: left
         title: Servian
         link: https://www.servian.com
