@@ -12,7 +12,7 @@ email: tangtjg@outlook.com
 website: https://ttang.dev/aboutme
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 github_username: ttangwork
@@ -88,14 +88,14 @@ content:
         sub_title: Senior Consultant
         caption: December 2021 - Present
         description: | # this will include new lines to allow paragraphs
-          Promoted to Senior Consultant. Joined a GCP migration project in 2022 to help client exit their data centre by 2026.
+          Lead a small team of 3 to help client build a GCP environment. Worked closely with client's DevOps team to design and build GCP environments in preparation of data centre exit.
       - layout: left
         title: Servian
         link: https://www.servian.com
         sub_title: Consultant
         caption: November 2019 - December 2021
         description: | # this will include new lines to allow paragraphs
-          Started as a Consultant, my main focus was helping clients with their cloud transformation projects. I also collaborated with AWS Professional Services to provide consulting and upskiling for clients to accelerate their journey to AWS.
+          Helping clients uplift/re-platform on-premises workloads into cloud. Embedded in client's DevOps team to design and develop cloud solutions. Collaborated with AWS Professional Services to run upskilling sessions to accelerate client's cloud adpotion.
       - layout: left
         title: Transurban
         link: https://www.transurban.com
