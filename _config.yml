@@ -37,12 +37,7 @@ linkedin_username: tangtt
 about_title: About Me
 about_profile_image: images/rocket.png
 about_content: | # this will include new lines to allow paragraphs
-  Experienced DevOps engineer helping organisations transform legacy systems into cloud.
-
-  I have expertise in:
-  - <mark>AWS</mark>, <mark>GCP</mark> and <mark>Azure</mark>
-  - Infrastructure As Code
-  - CI/CD
+  Cloud and DevOps Consultant with 15+ years of experience in application support, monitoring, cloud migration, and platform engineering across AWS, Azure and GCP. Proven track record of leading teams, driving digital transformation, and building cloud solutions. Strong background in scripting, automation, and stakeholder engagement.
 
 content:
   - title: Client Engagements # Title for the section
