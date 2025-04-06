@@ -37,10 +37,15 @@ linkedin_username: tangtt
 about_title: About Me
 about_profile_image: images/rocket.png
 about_content: | # this will include new lines to allow paragraphs
-  Cloud and DevOps Consultant with 15+ years of experience in application support, monitoring, cloud migration, and platform engineering across AWS and GCP. Proven track record of working in fast-paced teams, driving digital transformation, and building resilient cloud solutions. Strong background in scripting, automation, and stakeholder engagement.
+  Experienced DevOps engineer helping organisations transform legacy systems into cloud.
+
+  I have expertise in:
+  - <mark>AWS</mark>, <mark>GCP</mark> and <mark>Azure</mark>
+  - Infrastructure As Code
+  - CI/CD
 
 content:
-  - title: Client Projects # Title for the section
+  - title: Client Engagements # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -48,17 +53,13 @@ content:
         quote: >
           Feburary 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          - Led a 3-person team to help client exit on-prem data centers and migrate to Google Cloud Platform (GCP).  
-          - Designed and built secure GCP environments aligned with client DevOps practices.  
-          - Collaborated cross-functionally to embed best practices and ensure successful cloud adoption.
+          The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and <mark>.NET</mark> tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including: <mark>Terraform</mark>, <mark>Ansible</mark>, <mark>Packer</mark>, Codefresh, Artifactory, Bamboo, New Relic, Splunk
       - layout: left
         title: An Australian FinTech company
         quote: >
           April 2020 - January 2022
         description: | # this will include new lines to allow paragraphs
-          - Embedded in client DevOps teams to re-platform on-prem workloads to AWS.  
-          - Conducted upskilling sessions in partnership with AWS Professional Services to accelerate cloud maturity.  
-          - Designed infrastructure as code, CI/CD pipelines, and security-first cloud deployments.
+          Migrating on-premises workloads to AWS with moderate replatforming of legacy applications that run on <mark>Apache Tomcat</mark> or <mark>IIS</mark>. One of the biggest challenges of this project was convincing stakeholders to shift their 'on-premises' mindset and embrace modern practices. We conducted regular workshops to upskill the team and worked closely with them throughout the migration. Ultimately, we raised the team's cloud skill level, enabling them to operate and maintain cloud workloads independently after the project was completed.
       - layout: left
         title: An Australian Bank
         quote: >
@@ -101,26 +102,21 @@ content:
         sub_title: Application Performance and Monitoring Specialist
         caption: July 2018 - November 2019
         description: | # this will include new lines to allow paragraphs
-          - Owned monitoring for tolling and corporate systems, optimizing performance and alerting.  
-          - Utilized tools like Dynatrace, Site24x7, OEM, and shell scripting (Bash, Perl, Python).  
-          - Automated performance metrics collection and analysis across critical systems.
+          Responsible for application monitoring of tolling and corporate systems. Working with application SMEs on application monitoring, performance and automation. Day to day tools: Shell scripting (Bash, Perl and Python), PL/SQL, Site24x7, Dynatrace and Oracle Enterprise Manager.
       - layout: left
         title: Telstra Health
         link: https://www.telstrahealth.com
         sub_title: Technical Consultant
         caption: January 2017 - July 2018
         description: | # this will include new lines to allow paragraphs
-          - Developed custom SQL modules and reports for community and aged care clients.  
-          - Built T-SQL stored procedures, SSIS packages, and SSRS dashboards tailored to business needs.
+          Technical Consultant of The Care Manager (TCM), a solution for Community Care and Aged Care service providers. Developing and supporting custom modules & SQL scripts based on client requirement. Primarily using T-SQL to create functions/stored procedures, SSIS or SSRS.
       - layout: left
         title: Cenitex
         link: https://www.cenitex.vic.gov.au
         sub_title: Application Support
         caption: July 2009 - December 2016
         description: | # this will include new lines to allow paragraphs
-          - Provided second-line support for business-critical applications (WebSphere, IIS, SQL Server).  
-          - Designed and maintained reports using Crystal Reports, SSRS, and SAP BO.  
-          - Balanced BAU support with project work across incident, change, and problem management.
+          Second level support of business critical applications using following technologies: Websphere 6, IIS, SQL Server, SSRS, SSIS, SAP BO. Responsible for creating and maintaining reports (Crystal Reports; Business Objects Web Intelligence; SSRS). Work in BAU (Incident/Change/Problem Management) and project mixed environment.
       - layout: left
         title: RMIT University
         link: https://www.rmit.edu.au
