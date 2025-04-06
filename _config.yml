@@ -9,7 +9,7 @@ version: 2
 name: Tommy Tang
 title: DevOps Engineer
 email: tangtjg@outlook.com
-website: https://ttang.dev/aboutme
+website: https://ttang.dev
 
 # Dark Mode (true/false/never)
 darkmode: never
