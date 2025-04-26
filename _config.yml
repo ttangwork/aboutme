@@ -128,7 +128,7 @@ content:
         caption: 2005 - 2008
         sub_title: Bachelor of Business with Honours, Business Information Systems
         description: | # this will include new lines to allow paragraphs
-          Grade: First Class Honour
+          Completed my dgree with first class honours. I was also working as a sessional tutor at RMIT University during my final year. I was responsible for running labs and tutorials for Java Application Development.
 
   - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
