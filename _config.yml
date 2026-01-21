@@ -46,7 +46,7 @@ content:
       - layout: left
         title: An Australian Bank
         quote: >
-          Feburary 2022 - Present
+          Feburary 2022 - December 2025
         description: | # this will include new lines to allow paragraphs
           The cloud migration project aims to help the client vacate their data center by 2027. The systems currently hosted on-premises are primarily based on Windows and <mark>.NET</mark> tech stacks. My role is to leverage the existing enterprise platform to migrate the client’s workloads to the cloud. Given the complexity involved, the project has been divided into different phases to gradually move workloads to the cloud. Throughout this project, we utilized various tools to assist with delivery, including: <mark>Terraform</mark>, <mark>Ansible</mark>, <mark>Packer</mark>, Codefresh, Artifactory, Bamboo, New Relic, Splunk
       - layout: left
@@ -128,19 +128,24 @@ content:
         caption: 2005 - 2008
         sub_title: Bachelor of Business with Honours, Business Information Systems
         description: | # this will include new lines to allow paragraphs
-          Completed my dgree with first class honours. I was also working as a sessional tutor at RMIT University during my final year. I was responsible for running labs and tutorials for Java Application Development.
+          Completed my degree with first class honours. I was also working as a sessional tutor at RMIT University during my final year. I was responsible for running labs and tutorials for Java Application Development.
 
   - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Google Certified
+        caption: expires October 2027
+        description: |
+          [Google Cloud Associate Cloud Engineer](https://www.credly.com/badges/639402c1-2803-4bd9-a19d-a549bbdddf34/public_url)    
+      - layout: left
+        title: Google Certified
         caption: expires November 2027
         description: |
-          [Google Cloud Associate Cloud Engineer](https://www.credly.com/badges/df407d0c-dd8f-4a5d-8500-53c48971ef1f)
+          [Google Cloud Associate Cloud Engineer](https://www.credly.com/badges/df407d0c-dd8f-4a5d-8500-53c48971ef1f/public_url)
       - layout: left
         title: Hashicorp Certified
-        caption: expires January 2026
+        caption: expired January 2026
         description: |
           [Terraform Associate (003)](https://www.credly.com/badges/6a36ad47-2270-4495-b33e-ea9b5ce0f408/)
       - layout: left
@@ -155,7 +160,7 @@ content:
           [AWS Solutions Architect Associate](https://cp.certmetrics.com/amazon/en/public/verify/credential/DXEGQ23CMMQQ1N35)
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
