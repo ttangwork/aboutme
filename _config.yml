@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: Tommy Tang
-title: DevOps Engineer
-email: tangtjg@outlook.com
-website: https://ttang.dev
+title: Senior Cloud and DevOps Consultant
+# email: tangtjg@outlook.com
+# website: https://ttang.dev
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -145,9 +145,9 @@ content:
           [Google Cloud Associate Cloud Engineer](https://www.credly.com/badges/df407d0c-dd8f-4a5d-8500-53c48971ef1f/public_url)
       - layout: left
         title: Hashicorp Certified
-        caption: expired January 2026
+        caption: expires February 2028
         description: |
-          [Terraform Associate (003)](https://www.credly.com/badges/6a36ad47-2270-4495-b33e-ea9b5ce0f408/)
+          [Terraform Associate (004)](https://www.credly.com/badges/c1e97cdd-832e-445f-885e-271a8f7afa29/public_url)
       - layout: left
         title: Microsoft Certified
         caption: issued May 2021
