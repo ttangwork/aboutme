@@ -3,4 +3,14 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Custom accent styling
+a {
+  transition: color 0.2s ease;
+}
+
+.profile-image {
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
   
