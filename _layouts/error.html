@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+  {%- include header.html -%}
+
+  {%- comment -%}
+    The theme's own `default` layout renders the resume sections directly and never
+    outputs {{ content }}, so any page using it silently discards its body. This layout
+    exists so standalone pages such as 404.html can render their own content.
+  {%- endcomment -%}
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
+
+</html>
