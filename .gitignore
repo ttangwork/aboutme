@@ -26,3 +26,16 @@ Temporary Items
 .apdisk
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#macOS
+
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler
+vendor/
+.bundle/
+
+# Machine-local tooling
+.claude/settings.local.json

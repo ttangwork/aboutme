@@ -38,7 +38,6 @@ linkedin_username: tangtt
 # About Section
 about_title: About Me
 about_profile_image: images/devops.png
-og_image: images/devops.png
 about_content: | # this will include new lines to allow paragraphs
   Cloud and DevOps Consultant with 15+ years of experience in application support, monitoring, cloud migration, and platform engineering across AWS, Azure and GCP. Proven track record of leading teams, driving digital transformation, and building cloud solutions. Strong background in scripting, automation, and stakeholder engagement.
 
@@ -168,6 +167,30 @@ footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/resume-theme
+
+# Must be set explicitly: the github-pages gem otherwise infers a baseurl of
+# /pages/<owner>/<repo> on unauthenticated local builds, which breaks asset
+# URLs in local preview and any use of absolute_url.
+baseurl: ""
+
+# jekyll-seo-tag reads `image` from page front matter, not site config, so the
+# social card has to be applied as a default across all pages.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/devops.png
+
+# Setting `exclude` replaces Jekyll's defaults, so the standard entries are
+# repeated here alongside repo files that must not be served from the site root.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+  - CLAUDE.md
+  - LICENSE
+  - README.md
 
 sass:
   sass_dir: _sass

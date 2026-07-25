@@ -1,4 +1,7 @@
+---
+# Front matter is required so Liquid renders the sitemap URL from `url` in _config.yml.
+---
 User-agent: *
 Allow: /
 
-Sitemap: https://ttang.dev/sitemap.xml
+Sitemap: {{ "/sitemap.xml" | absolute_url }}

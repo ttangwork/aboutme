@@ -1,0 +1,18 @@
+{%- comment -%}
+  Overrides the theme's footer, which emits <a href="mailto:{{ site.email }}">
+  unconditionally. With `email` intentionally unset in _config.yml that renders a
+  dead `mailto:` link with no address — invalid markup, and the reason the
+  html-proofer CI step failed on every run. Only render the link when set.
+{%- endcomment -%}
+<div class="container footer-container">
+  <p>
+    {{ site.name | escape }}
+    {%- if site.email -%}
+      &nbsp;-
+      <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+    {%- endif -%}
+    {%- if site.footer_show_references -%}
+      &nbsp;- {{ site.references_title | default: "References on request" }}
+    {%- endif -%}
+  </p>
+</div>
